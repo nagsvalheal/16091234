@@ -1,0 +1,294 @@
+@font-face 
+{
+	font-family: "Eina-Regular",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	src: url("/s/sfsites/c/resource/WebEinaFonts/WebFonts/Eina01-Regular.woff")
+		format("woff");
+}
+@font-face 
+{
+	font-family: "Eina-Light",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	src: url("/s/sfsites/c/resource/WebEinaFonts/WebFonts/Eina04-Light.woff")
+		format("woff");
+}
+@font-face 
+{
+	font-family: "Eina-SemiBold",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	src: url("/s/sfsites/c/resource/WebEinaFonts/WebFonts/Eina04-SemiBold.woff")
+		format("woff");
+}
+@font-face 
+{
+	font-family: "Eina04-Bold",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	src: url("/s/sfsites/c/resource/WebEinaFonts/WebFonts/Eina04-Bold.woff")
+		format("woff");
+}
+.nobutton{
+	background: none;
+	border: none;
+}
+.reminder-container 
+{
+	text-align: left;
+	background-color: #fef4d7;
+	padding: 20px;
+	display: flex;
+	gap: 10px;
+	border-left: 4px solid #edbe2b;
+	position: relative;
+    right: 15px;
+}
+.link 
+{
+	text-decoration: underline;
+	color: #403a60;
+	position: relative;
+	right: 6px;
+}
+.reminder-text 
+{
+	color: #2c333a;
+	width: 206px;
+	height: 48px;
+	font-family: "Eina-Bold",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 550;
+	margin-bottom: 30px;
+}
+.box-icon 
+{
+	width: 24px;
+	height: 24px;
+	margin-top: 3px;
+}
+.notification-settings 
+{
+	display: flex;
+	justify-content: left;
+	width: 214px;
+	height: 60px;
+	font-family: "Eina-Regular",  Helvetica, Arial, Verdana, Tahoma, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #403a60;
+}
+.para 
+{
+	margin-top: -10%;
+}
+/* @media only screen and (max-width: 600px) 
+{
+	.reminder-container 
+	{
+		text-align: left;
+		position: relative;
+		top: 140px;
+		height: 144px;
+		background-color: #fef4d7;
+		padding: 20px;
+		display: flex;
+		gap: 10px;
+		border-left: 4px solid #edbe2b;
+		margin-top: -160px;
+	margin-left: 120px;
+        width: 90%;
+	}
+} */
+@media only screen and (max-width:400px){
+	.reminder-container{
+		text-align: left;
+        position: relative;
+        top: 10px;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        margin-left: 120px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+        width: 75%;
+        right: 95px;
+		z-index: 1;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+	.reminder-container{
+		text-align: left;
+        position: relative;
+        top: 10px;
+        width: 75%;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        left: 20px;
+        margin-top: 10px;
+        z-index: 1;
+        margin-bottom: 10px;
+    }
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) 
+{
+	.reminder-container 
+	{
+		text-align: left;
+        position: relative;
+        top: 10px;
+        width: 80%;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        margin-top: 10px;
+        left: 30px;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px) 
+{
+	.reminder-container 
+	{
+		text-align: left;
+        position: relative;
+        left: 285px;
+		top: 12px;
+        width: 286px;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        margin-top: -32%;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+
+}
+@media only screen and (min-width: 1100px) and (max-width: 1200px) 
+{
+	.reminder-container 
+	{
+		text-align: left;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        position: relative;
+        right: -310px;
+        top: -20px;
+        width: 50%;
+        margin-top: -24%;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+	.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.reminder-container 
+	{
+		text-align: left;
+        position: relative;
+        top: 10px;
+        width: 90%;
+        height: 150px;
+        background-color: #fef4d7;
+        padding: 20px;
+        display: flex;
+        gap: 10px;
+        border-left: 4px solid #edbe2b;
+        margin-left: 16%;
+        right: 50px;
+        margin-top: 5%;
+        margin-bottom: -5%;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
+@media only screen and (min-width: 1200px) and (max-width:1500px) 
+{
+	.reminder-container 
+	{
+		position: relative;
+    left: 16px;
+	top: 10px;
+	height: 150px;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
+@media only screen and (min-width: 1500px) 
+{
+	.reminder-container 
+	{
+		position: relative;
+    left: 16px;
+	top: 10px;
+	height: 150px;
+	}
+		.wholediv{
+		position: relative;
+		bottom: 10px;
+	}
+		.box-icon{
+			position: relative;
+		bottom: 10px;	
+	}
+}
